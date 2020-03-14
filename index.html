@@ -4,18 +4,161 @@
   <title>아이즈원 팬페이지</title>
   <meta charset="utf-8">
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <style>
+  h2{
+    color:#424242;
+    text-align:center;
+    font-size:30px;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin:20px 0px 50px 0px;
+  }
+  a{
+    text-decoration:none;
+    color:hotpink;
+  }
+  h1{
+    font-size:55px;
+    text-align:center;
+    color:hotpink;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 1000;
+    margin-bottom:50px;
+  }
+  table{
+    text-align:center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight:400;
+    margin:auto;
+    width:38%;
+    height:250px;
+    border:1px solid hotpink;
+    border-collapse:collapse;
+  }
+  th, td{
+    border:1px solid hotpink;
+    padding:5px;
+  }
+  ul{
+    text-align:center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight:800;
+    border-top:3px solid pink;
+    border-bottom:3px solid pink;
+    margin-top:50px;
+    margin-bottom:100px;
+    padding:5px 0px 5px 0px;
+  }
+  li{
+    display:inline;
+    border-left:1px solid pink;
+    padding:0 30px;
+  }
+  ul li:first-child{
+    border-left:none;
+  }
+  p{
+    color:#424242;
+    display:block;
+    text-align:center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight:400;
+    border-left:4px solid hotpink;
+    border-right:2px dashed pink;
+    border-top:2px dashed pink;
+    border-bottom:2px dashed pink;
+    margin-bottom:50px;
+  }
+  #image {
+    text-align:center;
+    max-width:100%;
+    height:auto;
+  }
+  #big{
+    color:#424242;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 1000;
+    font-size:25px;
+    margin:40px 0px 50px 0px;
+  }
+  #menu .main>li{
+    position:relative;
+  }
+  #menu .main>li:hover .sub{
+    display:block;
+  }
+  #menu .main .sub{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    display:none;
+  }
+  .gg{
+    color:deeppink;
+  }
+  #menu .sub li{
+    border-left:none;
+    font-size:10px;
+  }
+  @media(max-width:800px){
+    h1{
+      font-size:50px;
+    }
+    h2{
+      font-size:25px;
+    }
+    ul{
+      font-size:13px;
+    }
+    li{
+      padding:0 10px;
+    }
+  }
+  </style>
   </head>
   <body>
-    <h1>아이즈원</h1>
-    <ul>
+    <h1>IZ*ONE</h1>
+  <div id="menu">
+    <ul class="main">
       <li><a href="index.html">IZ*ONE</a></li>
-      <li><a href="">멤버소개</a></li>
-      <li><a href="">COLOR*IZ</a></li>
-      <li><a href="">HEART*IZ</a></li>
-      <li><a href="">BLOOM*IZ</a></li>
-      <li><a href="">INFO</a></li>
+      <li><a href="member.html">멤버 소개</a>
+      <ul class="sub">
+        <li><a href="">장원영</a></li>
+        <li><a href="">미야와키 사쿠라</a></li>
+        <li><a href="">조유리</a></li>
+        <li><a href="">최예나</a></li>
+        <li><a href="">안유진</a></li>
+        <li><a href="">야부키 나코</a></li>
+        <li><a href="">권은비</a></li>
+        <li><a href="">강혜원</a></li>
+        <li><a href="">혼다 히토미</a></li>
+        <li><a href="">김채원</a></li>
+        <li><a href="">김민주</a></li>
+        <li><a href="">이채연</a></li>
+      </ul>
+    </li>
+      <li><a href="coloriz.html">COLOR*IZ</a>
+      <ul class="sub">
+        <li><a href="">앨범 정보</a></li>
+        <li><a href="">뮤직비디오</a></li>
+        </ul>
+      </li>
+      <li><a href="heartiz.html">HEART*IZ</a>
+        <ul class="sub">
+          <li><a href="">앨범 정보</a></li>
+          <li><a href="">뮤직비디오</a></li>
+          </ul>
+        </li>
+      <li><a href="bloomiz.html">BLOOM*IZ</a>
+        <ul class="sub">
+          <li><a href="">앨범 정보</a></li>
+          <li><a href="">뮤직비디오</a></li>
+          </ul>
+        </li>
+      <li><a href="info.html">INFO</a></li>
     </ul>
+  </div>
     <h2>아이즈원은?</h2>
     <div id="image"><img src="izone1.jpg"></div>
     <div id="big">
